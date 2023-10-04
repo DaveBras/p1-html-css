@@ -14,26 +14,33 @@
     <title>Contact</title>
   </head>
   <body class="contact_body">
-    <nav>
-      <a href="./index.html"><img src="./img/hacker.png" id="logo" /></a>
-      <ul>
-        <li><a href="./html-css.html">HTML/CSS</a></li>
-        <li><a href="./javascript.html">Javascript</a></li>
-        <li><a href="./php.html">PHP</a></li>
-        <li><a href="./mysql.html">SQL</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <h1>Contact</h1>
-    <p>Naam</p>
-    <textarea name="" id="" cols="30" rows="1"></textarea>
-    <p>E-mail</p>
-    <textarea name="" id="" cols="30" rows="1"></textarea>
-    <p>Bericht</p>
-    <textarea name="" id="" cols="30" rows="4"></textarea>
-    <br />
-    <br />
-    <button class="button">Versturen</button>
-    <p>Copyright Techniek College Rotterdam</p>
+    <div id="page-container">
+      <div id="content-wrap">
+        <nav>
+          <a href="./index.html"><img src="./img/hacker.png" id="logo" /></a>
+          <ul>
+            <li><a href="./html-css.html">HTML/CSS</a></li>
+            <li><a href="./javascript.html">Javascript</a></li>
+            <li><a href="./php.html">PHP</a></li>
+            <li><a href="./mysql.html">SQL</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <h1>Contact</h1>
+        <p>Naam</p>
+        <div class="contact_textareas">
+
+        <textarea name="naam" id="naam" cols="30" rows="1"></textarea>
+        <p>E-mail</p>
+        <textarea name="email" id="email" cols="30" rows="1"></textarea>
+        <p>Bericht</p>
+        <textarea name="bericht" id="bericht" cols="30" rows="4"></textarea>
+        <br>
+        <br>
+        <button>Versturen</button>
+      </div>
+      </div>
+      <footer class="contact_footer">Copyright Techniek College Rotterdam</footer>
+    </div>
   </body>
 </html>
