@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    margin-top: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: end;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.square2 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+.square3 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.square4 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
