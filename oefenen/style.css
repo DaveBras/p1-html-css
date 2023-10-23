@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    /* verticaal positioneren */
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8rem 1rem;
+}
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 20vw;
+    z-index: 1;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0,0.2)
+}
+.dropdown-content a {
+    color: black;
+    padding: 0.8rem 1rem;
+    /* display: block; */
+    text-align: left;
+
+}

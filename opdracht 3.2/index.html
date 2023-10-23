@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opdracht3.2</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="firstname">Voornaam</label>
+            <input type="text" name="firstname" id="firstname" pattern="[A-Za-z]+"
+                title="Voornaam mag geen cijfers bevatten">
+        </div>
+        <div>
+            <label for="lastname">Achternaam</label>
+            <input type="text" name="lastname" id="lastname" pattern="[A-Za-z]+"
+                title="Achternaam mag geen cijfers bevatten">
+        </div>
+        <br>
+        <div>
+            Geslacht
+            <div>
+                <label for="male">man</label>
+                <input type="radio" name="gender" id="male" checked>
+            </div>
+            <div>
+                <label for="female">vrouw</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+            <br>
+        </div>
+        <div>
+            <label for="adressnumber">Straat + huisnummer</label>
+            <input type="text" name="adressnumber" id="adressnumber">
+        </div>
+        <div>
+            <label for="postalcode">Postcode</label>
+            <input type="text" name="postalcode" id="postalcode">
+        </div>
+        <br>
+        <div>
+            <label for="city">Stad</label>
+            <input type="text" name="city" id="city">
+        </div>
+        <div>
+            <label for="country">Land</label>
+            <input type="text" name="country" id="country">
+        </div>
+        <br>
+        <div>
+            <label for="BSNnumber">BSN-nummer</label>
+            <input type="text" name="BSNnumber" id="BSNnumber" 
+             maxlength="9">
+        </div>
+        <br>
+        <div>
+            <label for="holidaycountry">Vakantieland</label>
+            <select>
+                <option value="Frankrijk">Frankrijk</option>
+                <option value="Griekenland">Griekenland</option>
+                <option value="Spanje">Spanje</option>
+                <option value="Italie">Italie</option>
+             
+            </select>
+        </div>
+        <div>
+            <label for="departuredate">Datum van vertrek</label>
+            <input type="date" name="departuredate" id="departuredate" min="23-10-2023">
+        </div>
+        <div>
+            <label for="returndate">Datum van terugkomst</label>
+            <input type="date" name="returndate" id="returndate">
+        </div>
+        <div>
+            <label for="groupsize">Aantal reisgenoten</label>
+            <input type="number" name="groupsize" id="groupsize" max="4" min="0">
+        </div>
+        <br>
+        <button>Boek nu</button>
+        <div>
+            <br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Wachtwoord</label>
+            <input type="password" name="password" id="password">
+        </div>
+    </form>
+</body>
+
+</html>

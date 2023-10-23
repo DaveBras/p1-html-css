@@ -15,7 +15,6 @@
   </head>
   <body class="contact_body">
     <div id="page-container">
-      <div id="content-wrap">
         <nav>
           <a href="./index.html"><img src="./img/hacker.png" id="logo" /></a>
           <ul>
@@ -26,21 +25,27 @@
             <li><a href="./contact.html">Contact</a></li>
           </ul>
         </nav>
+        <main>
         <h1>Contact</h1>
-        <p>Naam</p>
-        <div class="contact_textareas">
+     <form action="submission.html" method="POST">
+      <p>Naam</p>
+      <input type="text" name="contact_info" id="name">
+      <p>E-mail</p>
+      <input type="text" name="contact_info" id="e-mail">
+      <p>Bericht</p>
+      <input type="text" name="contact_info" id="bericht">
+      <br>
+    <section class="submission">
+      <input type="submit" value="versturen">
+    </section>
 
-        <textarea name="naam" id="naam" cols="30" rows="1"></textarea>
-        <p>E-mail</p>
-        <textarea name="email" id="email" cols="30" rows="1"></textarea>
-        <p>Bericht</p>
-        <textarea name="bericht" id="bericht" cols="30" rows="4"></textarea>
-        <br>
-        <br>
-        <button>Versturen</button>
-      </div>
-      </div>
-      <footer class="contact_footer">Copyright Techniek College Rotterdam</footer>
+
+     </form>
+        
+        
+      
+    </main>
+      <footer class="footer">Copyright Techniek College Rotterdam</footer>
     </div>
   </body>
 </html>

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+@media screen and (max-width: 768px) {
+    section {
+        background-color: violet;
+        font-size: 20px;
+    }
+    
+}
+
+/* telefoon */
+@media screen and (max-width: 576px){ 
+    
+section {
+    font-size: 30px;
+    background-color: yellow;
+    text-align: center;
+}
+}
