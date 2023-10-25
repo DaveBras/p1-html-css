@@ -1,0 +1,22 @@
+tr {
+    background-color: white;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+th {
+    text-align: start;
+    color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+table {
+    background-color: grey;
+    width: 400px;
+}
+img {
+    width: 20px;
+    height: 20px;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+}
