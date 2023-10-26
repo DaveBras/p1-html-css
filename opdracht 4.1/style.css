@@ -1,0 +1,51 @@
+h1 {
+    font-size: 24px;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+p {
+    color: #4D4D4D;
+}
+.p1 {
+    font-weight: bold;
+}
+a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+header {
+    width: 100vw;
+    height: 35vh;
+    background-image: url(./img/02ccd97d14268ed8-profile_banner-480.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+}
+header h1 {
+    color: white;
+}
+header p {
+    color: grey;
+} 
+
+img {
+    width: 50vw;
+}
+
+article {
+    border-color: #4D4D4D;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 1px 1px 1px 3px;}
